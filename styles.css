@@ -38,7 +38,6 @@ a:visited {
 }
 
 .nav-list li {
-    list-style: none;
     gap: 42px;
     flex: 1;
 }
@@ -53,6 +52,7 @@ a:visited {
     height: 400px;
     align-items: center;
     justify-content: center;
+    gap: 24px;
     
 }
 
