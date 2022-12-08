@@ -1,7 +1,6 @@
 body {
+    box-sizing: border-box;
     background-color: #12171f;
-    margin-left: 80px;
-    margin-right: 80px;
     margin-top: -2px;
     
 }
@@ -25,16 +24,33 @@ header {
 
 
 
+
 .hero1 {
+    flex: 1;
     display: flex;
     color: #E5E7EB;
     padding: 12px;
-    font-size: 48px;
-    font-weight: 800;
-    background-color: rgb(59, 80, 99);
+    background-color: #1F2937;
     justify-content: space-between;
-    align-items: center;
     
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 8px;
+    border-width: 0px;
+    font-size: 16px;
+    color: #E5E7EB;
+    font-weight: 700;
+    white-space: nowrap;
+    padding: 4px;
+}
+
+.hero1 img {
+    flex: 0;
+    width: 300px;
+    height: auto;
+
 }
 
 .container2 {
