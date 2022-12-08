@@ -1,7 +1,5 @@
 body {
-    box-sizing: border-box;
     background-color: #12171f;
-    margin-top: -2px;
     padding-left: 125px;
     padding-right: 125px;
     
@@ -11,7 +9,7 @@ nav {
     display: flex;
     color: #E5E7EB;
     background-color: #1F2937;
-    margin: 0;
+    padding-top: 16px;
 }
 
 a:link {
@@ -27,6 +25,8 @@ a:visited {
     flex: 1;
     font-size: 24px;
     color: #F9FAF8;
+    padding-left: 125px;
+    font-weight: 800;
 }
 
 .nav-list {
@@ -34,6 +34,8 @@ a:visited {
     margin: 0;
     padding: 0;  
     flex: 1;  
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .nav-list li {
