@@ -1,6 +1,43 @@
 body {
-    display: flex;
-    background-color: red;
-    justify-content: center;
+    background-color: #12171f;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: -2px;
     
+}
+
+header {
+    display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
+    background-color: #1F2937;
+    padding: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 0 1 auto;
+}
+
+.logo {
+    flex: 1;
+    align-items: flex-start;
+    padding: 4px;
+}
+
+
+
+.hero1 {
+    display: flex;
+    color: #E5E7EB;
+    padding: 12px;
+    font-size: 48px;
+    font-weight: 800;
+    background-color: rgb(59, 80, 99);
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.container2 {
+    background-color: rgb(136, 117, 151);
+    flex: 1;
 }
