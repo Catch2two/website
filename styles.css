@@ -35,12 +35,13 @@ nav {
 
 
 .hero1 {
+    display: flex;
     color: #E5E7EB;
     margin: 0;
-    padding-left: 125px;
-    padding-right: 125px;
+    padding: 125px;
     background-color: #1F2937;
     height: 400px;
+    align-items: center;
 }
 
 
@@ -56,15 +57,16 @@ button {
 }
 
 .hero1 img {
-    flex: 0;
-    width: 300px;
-    height: auto;
+    max-width: 300px;
+    max-height: auto;
     border-radius: 12px;
-    justify-content: flex-end;
+    justify-content: center
+    
 
 }
 
 .hero2 {
+    display: flex;
     background-color: #E5E7EB;
     margin-top: -35px;
     justify-content: space-between;
