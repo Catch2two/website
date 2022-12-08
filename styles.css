@@ -16,12 +16,13 @@ header {
 }
 
 .logo {
-    align-items: flex-start;
     padding: 4px;
 }
 
-ul {
+.nav-list {
+    display: flex;
     list-style: none;
+    gap: 12px;
 }
 
 
@@ -60,7 +61,6 @@ button {
     margin-top: -35px;
     justify-content: space-between;
     height: 400px;
-    width: max-content;
 }
 
 h3 {
@@ -70,8 +70,10 @@ h3 {
 
 }
 
-.hero2 div {
-    font-size: 26px;
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {
