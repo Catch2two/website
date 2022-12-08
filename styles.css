@@ -2,8 +2,8 @@ body {
     box-sizing: border-box;
     background-color: #12171f;
     margin-top: -2px;
-    margin-left: 25px;
-    margin-right: 25px;
+    padding-left: 125px;
+    padding-right: 125px;
     
 }
 
@@ -11,27 +11,26 @@ nav {
     display: flex;
     color: #E5E7EB;
     background-color: #1F2937;
-    padding-left: 125px;
-    padding-right: 125px;
+
     margin: 0;
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    flex: 1;
 }
 
 .nav-list {
-    display: flex;
-    list-style: none;
+    display: flex; 
     margin: 0;
-    padding: 0;
-    gap: 12px;
+    padding: 0;    
 }
 
 .nav-list li {
-    flex-shrink: 1;
-
+    list-style: none;
+    gap: 42px;
+    flex: 1;
 }
 
 
