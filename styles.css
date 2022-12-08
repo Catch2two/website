@@ -2,7 +2,6 @@ body {
     background-color: #12171f;
     padding-left: 125px;
     padding-right: 125px;
-    
 }
 
 nav {
@@ -22,7 +21,7 @@ a:visited {
 }
 
 .logo {
-    flex: 1;
+    flex: 2;
     font-size: 24px;
     color: #F9FAF8;
     padding-left: 125px;
@@ -84,28 +83,34 @@ button {
     max-width: 600px;
     max-height: auto;
     border-radius: 12px;
-    justify-content: center
-    
 
+    
 }
 
 .hero2 {
     display: flex;
     background-color: #E5E7EB;
-    margin-top: -35px;
     height: 400px;
-}
-
-h3 {
-    font-weight: 700;
-    font-size: 36px;
-
 }
 
 .boxes {
     display: flex;
+    flex: 1;
     justify-content: center;
     align-items: center;
+    gap: 45px;
+}
+ li {
+    list-style: none;
+ }
+
+.boxes li img {
+    list-style: none;
+    text-align: center;
+    width: 150px;
+    height: auto;
+    list-style: none;
+
 }
 
 footer {
