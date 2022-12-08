@@ -9,12 +9,17 @@ body {
 
 header {
     display: flex;
-    font-size: 18px;
     color: #E5E7EB;
     background-color: #1F2937;
-    padding: 10px;
+    padding-left: 125px;
+    padding-right: 125px;
+    margin: 0;
 }
 
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
 
 .nav-list {
     display: flex;
@@ -25,13 +30,16 @@ header {
 }
 
 .nav-list li {
+    flex-shrink: 1;
 
 }
 
 
 .hero1 {
     color: #E5E7EB;
-    padding: 12px;
+    margin: 0;
+    padding-left: 125px;
+    padding-right: 125px;
     background-color: #1F2937;
     height: 400px;
 }
