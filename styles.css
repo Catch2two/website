@@ -92,6 +92,11 @@ button {
     padding: 10px 20px 10px 20px;
 }
 
+button:hover {
+    background-color: #1f0000;
+    color: #771919;
+}
+
 .hero1 img {
     max-width: 600px;
     max-height: auto;
@@ -122,8 +127,8 @@ button {
 }
  li {
     list-style: none;
-    text-shadow: rgb(37, 37, 37) 1px 0 10px;
- }
+    text-shadow: rgb(87, 5, 5) 1px 0 5px;
+     }
 
 .boxes li img {
     list-style: none;
