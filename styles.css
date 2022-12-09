@@ -1,7 +1,7 @@
 body {
-    background-color: #12171f;
-    padding-left: 125px;
-    padding-right: 125px;
+    background-color: #1F2937;
+
+
 }
 
 nav {
@@ -21,7 +21,7 @@ a:visited {
 }
 
 .logo {
-    flex: 2;
+    flex: 4;
     font-size: 24px;
     color: #F9FAF8;
     padding-left: 125px;
@@ -30,15 +30,15 @@ a:visited {
 
 .nav-list {
     display: flex; 
-    margin: 0;
+    margin: 0px 0px 0px 0px;
     padding: 0;  
-    flex: 1;  
-    justify-content: flex-end;
-    align-items: center;
+    flex: 1;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .nav-list li {
-    gap: 42px;
+    gap: 24px;
     flex: 1;
 }
 
@@ -53,6 +53,7 @@ a:visited {
     align-items: center;
     justify-content: center;
     gap: 24px;
+    min-width: 250px;
     
 }
 
@@ -76,7 +77,7 @@ button {
     color: #E5E7EB;
     font-weight: 700;
     white-space: nowrap;
-    padding: 4px;
+    padding: 8px 18px 8px 18px;
 }
 
 .hero1 img {
@@ -91,14 +92,16 @@ button {
     display: flex;
     background-color: #E5E7EB;
     height: 400px;
+    
 }
 
 .boxes {
     display: flex;
-    flex: 1;
+    flex: 1 1 auto;
     justify-content: center;
     align-items: center;
     gap: 45px;
+
 }
  li {
     list-style: none;
@@ -110,8 +113,20 @@ button {
     width: 150px;
     height: auto;
     list-style: none;
+    align-items: center;
+    justify-content: center;
 
 }
+
+.caption {
+    display: flex;
+    font-size: 16px;
+    width: 145px;
+    word-wrap: break-word;
+    
+}
+
+
 
 footer {
     text-align: center;
