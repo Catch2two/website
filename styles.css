@@ -1,13 +1,15 @@
 body {
-    background-color: #1F2937;
-
+    background-color: #242527;
+    min-width: 1000px;
+    margin-left: 50px;
+    margin-right: 50px;
 
 }
 
 nav {
     display: flex;
     color: #E5E7EB;
-    background-color: #1F2937;
+    background-color: #242527;
     padding-top: 16px;
 }
 
@@ -22,30 +24,32 @@ a:visited {
 
 .logo {
     display: flex;
-    width: 150px;
+    width: 100px;
     height: auto;
     justify-content: center;
     align-items: center;
-    padding-left: 125px;
+    margin-left: 125px;
+    padding: 2px;
+    border-width: 1px;
+    border-radius: 25px;
+    border-color: #F9FAF8;
+    border-style: double;
 }
 
 .nav-list {
     display: flex; 
     margin: 0px 0px 0px 0px;
     padding: 0;  
-    flex: 1;
-    justify-content: center;
-    align-items: flex-end;
+    align-items: center;
+    justify-content: flex-end;
     font-size: 24px;
     color: #F9FAF8;
-    padding-left: 125px;
     font-weight: 800;
+    flex: 1;
+    gap: 24px;
+    margin-right: 125px;
 }
 
-.nav-list li {
-    gap: 24px;
-    flex: 1;
-}
 
 
 .hero1 {
@@ -53,11 +57,11 @@ a:visited {
     color: #E5E7EB;
     margin: 0;
     padding: 125px;
-    background-color: #1F2937;
+    background-color: #242527;
     height: 400px;
     align-items: center;
     justify-content: center;
-    gap: 24px;
+    gap: 44px;
     min-width: 250px;
     
 }
@@ -75,11 +79,11 @@ p.story {
 
 
 button {
-    background-color: #3882F6;
+    background-color: #3a3a3a;
     border-radius: 8px;
     border-width: 0px;
     font-size: 16px;
-    color: #E5E7EB;
+    color: #1d1d1d;
     font-weight: 700;
     white-space: nowrap;
     padding: 8px 18px 8px 18px;
@@ -95,6 +99,10 @@ button {
 
 .hero2 {
     display: flex;
+    background-image: url(/home/catch2two/repos/website/img/box3.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
     background-color: #E5E7EB;
     height: 400px;
     
@@ -102,10 +110,11 @@ button {
 
 .boxes {
     display: flex;
-    flex: 1 1 auto;
+    flex: 1;
     justify-content: center;
     align-items: center;
     gap: 45px;
+    
 
 }
  li {
@@ -130,6 +139,27 @@ button {
     word-wrap: break-word;
     
 }
+
+.hero3 {
+    display: flex;
+    height: 400px;
+    padding: 200px;
+    background-color: #24252765;
+    background-image: url(/home/catch2two/repos/website/img/ghost.jpg);
+}
+
+.hero3 p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #E5E7EB;
+}
+
+.hero4 {
+    display: flex;
+    height: 300px;
+}
+
 
 
 
