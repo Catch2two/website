@@ -119,6 +119,7 @@ button {
 }
  li {
     list-style: none;
+    text-shadow: rgb(37, 37, 37) 1px 0 10px;
  }
 
 .boxes li img {
@@ -142,18 +143,21 @@ button {
 
 .hero3 {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 400px;
     padding: 200px;
-    background-color: #24252765;
     background-image: url(/home/catch2two/repos/website/img/ghost.jpg);
 }
 
-.hero3 p {
+p {
     text-align: center;
-    font-size: 18px;
+    font-size: 32px;
     font-weight: 700;
     color: #E5E7EB;
+    text-shadow: rgb(37, 37, 37) 1px 0 10px;
 }
+
 
 .hero4 {
     display: flex;
