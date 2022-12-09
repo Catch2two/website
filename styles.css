@@ -54,26 +54,27 @@ a:visited {
     background-color: #242527;
     height: 400px;
     align-items: center;
-
-    gap: 44px;
     min-width: 250px;
     
 }
 
 .title {
-    text-align: center;
+    text-align: left;
     font-size: 48px;
     color: #F9FAF8;
     
 }
 
 p.story {
+    text-align: left;
     font-size: 18px;
     color: #E5E7EB;
 }
 
 .void {
-    text-align: center;
+
+    margin-right: 345px;
+    text-align: left;
 }
 
 
@@ -109,9 +110,17 @@ button:hover {
     background-repeat: repeat;
     background-size: contain;
     background-position: center;
-    background-color: #E5E7EB;
-    height: 400px;
+    background-color: #ffffff;
+    height: 800px;
+    flex-direction: column;
     
+}
+
+.gods {
+    flex: 1;
+    font-size: 48px;
+    font-weight: 700;
+    color: #1f0000;
 }
 
 .boxes {
@@ -125,12 +134,11 @@ button:hover {
 }
  li {
     list-style: none;
-    text-shadow: rgb(87, 5, 5) 1px 0 5px;
+    text-shadow: rgb(87, 5, 5) 1px 0 2px;
      }
 
 .boxes li img {
-    list-style: none;
-    text-align: center;
+
     width: 150px;
     height: auto;
     list-style: none;
@@ -141,9 +149,11 @@ button:hover {
 
 .caption {
     display: flex;
+    margin-left: 50px;
     font-size: 16px;
     width: 145px;
     word-wrap: break-word;
+    text-align: center;
     
 }
 
@@ -161,7 +171,7 @@ p {
     font-size: 32px;
     font-weight: 700;
     color: #E5E7EB;
-    text-shadow: rgb(37, 37, 37) 1px 0 10px;
+    text-shadow: rgb(37, 37, 37) 1px 0 5px;
 }
 
 
