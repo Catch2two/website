@@ -30,10 +30,6 @@ a:visited {
     align-items: center;
     margin-left: 125px;
     padding: 2px;
-    border-width: 1px;
-    border-radius: 100px;
-    border-color: #000000;
-    border-style: double;
 }
 
 .nav-list {
@@ -60,13 +56,14 @@ a:visited {
     background-color: #242527;
     height: 400px;
     align-items: center;
-    justify-content: center;
+
     gap: 44px;
     min-width: 250px;
     
 }
 
 .title {
+    text-align: center;
     font-size: 48px;
     color: #F9FAF8;
 
@@ -79,11 +76,11 @@ p.story {
 
 
 button {
-    background-color: #3a3a3a;
+    background-color: #771919;
     border-radius: 8px;
     border-width: 0px;
     font-size: 16px;
-    color: #1d1d1d;
+    color: #110808;
     font-weight: 700;
     white-space: nowrap;
     padding: 8px 18px 8px 18px;
